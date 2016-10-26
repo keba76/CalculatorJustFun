@@ -12,6 +12,10 @@
 		5F4DA1C31DBF9F7F000C9B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4DA1C11DBF9F7F000C9B91 /* Main.storyboard */; };
 		5F4DA1C51DBF9F7F000C9B91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4DA1C41DBF9F7F000C9B91 /* Assets.xcassets */; };
 		5F4DA1C81DBF9F7F000C9B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4DA1C61DBF9F7F000C9B91 /* LaunchScreen.storyboard */; };
+		5F4DA1D41DBFD85B000C9B91 /* Ehsmb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F4DA1D31DBFD85B000C9B91 /* Ehsmb.ttf */; };
+		5F4DA1D61DBFD8AD000C9B91 /* DS-DIGI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 5F4DA1D51DBFD8AD000C9B91 /* DS-DIGI.TTF */; };
+		5F4DA1D81DC074B9000C9B91 /* btnSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5F4DA1D71DC074B9000C9B91 /* btnSound.wav */; };
+		5F4DA1DA1DC0A3A7000C9B91 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DA1D91DC0A3A7000C9B91 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		5F4DA1C41DBF9F7F000C9B91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F4DA1C71DBF9F7F000C9B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F4DA1C91DBF9F7F000C9B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F4DA1D31DBFD85B000C9B91 /* Ehsmb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ehsmb.ttf; sourceTree = "<group>"; };
+		5F4DA1D51DBFD8AD000C9B91 /* DS-DIGI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGI.TTF"; sourceTree = "<group>"; };
+		5F4DA1D71DC074B9000C9B91 /* btnSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btnSound.wav; sourceTree = "<group>"; };
+		5F4DA1D91DC0A3A7000C9B91 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				5F4DA1BD1DBF9F7F000C9B91 /* AppDelegate.swift */,
+				5F4DA1D31DBFD85B000C9B91 /* Ehsmb.ttf */,
+				5F4DA1D51DBFD8AD000C9B91 /* DS-DIGI.TTF */,
+				5F4DA1D71DC074B9000C9B91 /* btnSound.wav */,
 				5F4DA1BF1DBF9F7F000C9B91 /* ViewController.swift */,
+				5F4DA1D91DC0A3A7000C9B91 /* Calculator.swift */,
 				5F4DA1C11DBF9F7F000C9B91 /* Main.storyboard */,
 				5F4DA1C41DBF9F7F000C9B91 /* Assets.xcassets */,
 				5F4DA1C61DBF9F7F000C9B91 /* LaunchScreen.storyboard */,
@@ -124,9 +136,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F4DA1D41DBFD85B000C9B91 /* Ehsmb.ttf in Resources */,
 				5F4DA1C81DBF9F7F000C9B91 /* LaunchScreen.storyboard in Resources */,
 				5F4DA1C51DBF9F7F000C9B91 /* Assets.xcassets in Resources */,
+				5F4DA1D81DC074B9000C9B91 /* btnSound.wav in Resources */,
 				5F4DA1C31DBF9F7F000C9B91 /* Main.storyboard in Resources */,
+				5F4DA1D61DBFD8AD000C9B91 /* DS-DIGI.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +154,7 @@
 			files = (
 				5F4DA1C01DBF9F7F000C9B91 /* ViewController.swift in Sources */,
 				5F4DA1BE1DBF9F7F000C9B91 /* AppDelegate.swift in Sources */,
+				5F4DA1DA1DC0A3A7000C9B91 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +316,7 @@
 				5F4DA1CE1DBF9F7F000C9B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
