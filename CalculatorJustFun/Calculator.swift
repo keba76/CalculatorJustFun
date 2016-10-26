@@ -57,6 +57,4 @@ class Calculator {
         var binaryFunction: (Double, Double) -> Double
         var firstOp: Double
     }
-    
-    
 }

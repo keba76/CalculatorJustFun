@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     private var btnSound: AVAudioPlayer!
     private var typing = false
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         let path = Bundle.main.path(forResource: "btnSound", ofType: "wav")
@@ -46,7 +45,7 @@ class ViewController: UIViewController {
             calculator.setOp(operand: displayValue)
             typing = false
         }
-            calculator.performOp(symbol: String(sender.tag))
+        calculator.performOp(symbol: String(sender.tag))
         displayValue = calculator.result
     }
     
@@ -67,9 +66,5 @@ class ViewController: UIViewController {
             outputLbl.text = String(newValue)
         }
     }
-    
-    
-    
-    
 }
 
